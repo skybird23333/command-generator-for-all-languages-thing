@@ -21,7 +21,7 @@ All you need to do is to install node.js [here](https://nodejs.org/zh-cn/). Then
 Open `config.json` to change settings.  
 **identifier** The identifier of the string. E.g: `item.apple.name`.  
 **command** The command where you want to put the string in, use %s to represent the identifier. Leave blank if you want the texts only. E.g: `execute @e[type=item,name=%s] ~~~ say who dropped apple aaaaa`.
-##run script
+## run script
 **Windows** In the folder where you extrated the code, right click on a blank space, and click "open command prompt here" or "open powershell here" depending on your system version. Then, type `node index.js` into the command prompt and wait till the script ends.  
 **Non-Windows** idk  
   
