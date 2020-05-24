@@ -1,0 +1,4 @@
+{
+    "identifier": "item.apple.name",
+    "command": "execute @e[type=item,name=%s] ~~~ say who dropped apple aaaaa"
+}
