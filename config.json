@@ -1,4 +1,4 @@
 {
-    "identifier": "item.apple.name",
-    "command": "execute @e[type=item,name=%s] ~~~ say who dropped apple aaaaa"
+    "identifier": "item.blaze_rod.name",
+    "command": "execute @a[tag=host,scores={settings_state=2}] ~~~ execute @a[tag=speedrunner,scores={progress=8}] ~~~ execute @e[type=item,name=\"%s\",r=2] ~~~ scoreboard players set @p[tag=speedrunner] progress 9"
 }
